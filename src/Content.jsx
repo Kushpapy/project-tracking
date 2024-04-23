@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 const StyledContent = styled.div`
   display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 6.8rem;
 `;
 
 const NewBox = styled.div`
@@ -36,6 +40,10 @@ const Button = styled.button`
   letter-spacing: 0.1rem;
   cursor: pointer;
   transition: 0.3s all ease-in;
+
+  &:hover {
+    opacity: 0.7;
+  }
 `;
 
 const ThinParagraph = styled.p`
@@ -52,15 +60,17 @@ const FinalBox = styled.div`
 `;
 
 const SvgBox = styled.div`
-  margin-left: auto;
+  order: 2;
 `;
 
 const ContentBox = styled.div`
   display: grid;
+  row-gap: 1rem;
 
   & #special {
     font-size: 2rem;
     color: var(--dark-Grayish-Blue);
+    margin-bottom: 3.8rem;
   }
 `;
 

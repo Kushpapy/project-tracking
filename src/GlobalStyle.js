@@ -16,7 +16,7 @@ html{
     font-size: 62.5%;
 }
 
-*{
+*,::before, ::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,7 +28,7 @@ body{
     font-family: "Barlow Condensed", sans-serif;
     font-size: 1.8rem;
     color: var(--color-very-dark-blue);
-    background-color: var(--light-grayish-blue);
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
